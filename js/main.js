@@ -4,15 +4,22 @@ const classes = [
         number: 1,
         title: "Introduction to Statics",
         description: "Understanding the basics of Statics.",
-        videoId: "6b36cyfgc",
-        lectureSheet: "lecture1.pdf"
+        videoId: "HrZha1oBZuc",
+        lectureSheet: "https://drive.google.com/file/d/1FBUnGJGfYWqyxV7cBOEAWwK0XDk3PziL/view"
     },
     {
         number: 2,
         title: "Force Vectors",
         description: "Learn about force vectors and their properties.",
-        videoId: "VIDEO_ID_2",
-        lectureSheet: "lecture2.pdf"
+        videoId: "lCoEvGXsIYI",
+        lectureSheet: "  "
+    },
+    {
+        number: 6,
+        title: "Force Vectors",
+        description: "Learn about force vectors and their properties.",
+        videoId: "CC7ynexXyJo",
+        lectureSheet: "https://drive.google.com/file/d/1gVCqETudMIpPL_Dg0ZyaZlzXBHb1mkb0/view"
     }
     // Add more classes as needed
 ];
