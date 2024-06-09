@@ -5,7 +5,7 @@ const classes = [
         title: "Introduction to Statics",
         description: "Understanding the basics of Statics.",
         videoId: "6b36cyfgc",
-        lectureSheet: "https://drive.google.com/file/d/1kovMEaD8M3NmWKohyem3SuGefGVx_sDf/view"
+        lectureSheet: "lecture1.pdf"
     },
     {
         number: 2,
@@ -27,7 +27,7 @@ function populateClassCards() {
         classCard.innerHTML = `
             <div class="card bg-dark text-white h-100">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">${classData.title}</h5>
+                    <h5 class="card-title">Class ${classData.number}: ${classData.title}</h5>
                     <p class="card-text">${classData.description}</p>
                     <a href="class.html?class=${classData.number}" class="btn btn-primary mt-auto">Go to Class</a>
                     <a href="${classData.lectureSheet}" target="_blank" class="btn btn-secondary mt-2">Lecture Sheet</a>
@@ -46,8 +46,9 @@ function populateClassDetails() {
     if (classNumber) {
         const classData = classes.find(c => c.number == classNumber);
         if (classData) {
-            document.getElementById("class-title").innerText = classData.title;
+            document.getElementById("header-text").innerText = classData.title;
             document.getElementById("class-video").src = `https://www.youtube.com/embed/${classData.videoId}?rel=0`;
+            document.getElementById("class-number").innerText = `Class ${classData.number}`;
             document.getElementById("class-caption").innerText = classData.description;
             document.getElementById("lecture-sheet").href = classData.lectureSheet;
         }
@@ -58,7 +59,7 @@ function populateClassDetails() {
 document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById("class-container")) {
         populateClassCards();
-    } else if (document.getElementById("class-title")) {
+    } else if (document.getElementById("class-number")) {
         populateClassDetails();
     }
 });
