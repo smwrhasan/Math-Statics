@@ -2,25 +2,114 @@
 const classes = [
     {
         number: 1,
-        title: "Introduction to Statics",
-        description: "Understanding the basics of Statics.",
+        title: "Class number 1",
+        description: "",
         videoId: "HrZha1oBZuc",
         lectureSheet: "https://drive.google.com/file/d/1FBUnGJGfYWqyxV7cBOEAWwK0XDk3PziL/view"
     },
     {
         number: 2,
-        title: "Force Vectors",
-        description: "Learn about force vectors and their properties.",
+        title: "Class number 2",
+        description: " ",
         videoId: "lCoEvGXsIYI",
         lectureSheet: "  "
     },
     {
+        number: 3,
+        title: "Class number 2",
+        description: " ",
+        videoId: "Gwxucyv-TnY",
+        lectureSheet: "  "
+    },
+    {
+        number: 4,
+        title: "Class number 2",
+        description: " ",
+        videoId: "H9-vLjWLt7w",
+        lectureSheet: "  "
+    },
+    {
+        number: 5,
+        title: "Class number 2",
+        description: " ",
+        videoId: "6b36cyfgcTo",
+        lectureSheet: "  "
+    },
+    
+    {
         number: 6,
-        title: "Force Vectors",
+        title: "Class number 6",
         description: "Learn about force vectors and their properties.",
         videoId: "CC7ynexXyJo",
         lectureSheet: "https://drive.google.com/file/d/1gVCqETudMIpPL_Dg0ZyaZlzXBHb1mkb0/view"
     }
+    ,
+    {
+        number: 7,
+        title: "Class number 7",
+        description: " ",
+        videoId: "6oetC2IWu3E",
+        lectureSheet: "https://drive.google.com/file/d/1R5cNOT8TRzB6IZs-XDAVEMwLHfQsdDFm/view"
+    }
+    ,
+    {
+        number: 8,
+        title: "Class number 8",
+        description: " ",
+        videoId: "Eta-EfkdXi0",
+        lectureSheet: " "
+    }
+    ,
+    {
+        number: 9,
+        title: "Class number 9",
+        description: " ",
+        videoId: "K0BsDJ4TuC8",
+        lectureSheet: " "
+    }
+    ,
+    {
+        number: 10,
+        title: "Class number 10",
+        description: " ",
+        videoId: "MswnUVe-75w",
+        lectureSheet: ""
+    }
+    ,
+    {
+        number: 11,
+        title: "Class number 11",
+        description: " ",
+        videoId: "Rt3DVR5DYFE",
+        lectureSheet: " "
+    }
+    ,
+    {
+        number: 12,
+        title: "Class number 8",
+        description: " ",
+        videoId: "zRfys4qeFE4",
+        lectureSheet: " "
+    }
+    ,
+    {
+        number: 13,
+        title: "Class number 8",
+        description: " ",
+        videoId: "noby2kAgYe4",
+        lectureSheet: " "
+    }
+    ,
+    {
+        number: 14,
+        title: "Class number 8",
+        description: " ",
+        videoId: "_Yz2usAzvNg",
+        lectureSheet: "https://drive.google.com/file/u/0/d/16oeDrp4PNS9MpGt8cOMwCJvoUjBMVbTN/view"
+    }
+
+
+    
     // Add more classes as needed
 ];
 
